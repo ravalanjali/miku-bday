@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body class="w3-content" style="max-width:1300px">
+
+<!-- First Grid: Logo & About -->
+<div class="w3-row">
+  <div class="w3-half w3-black w3-container w3-center" style="height:700px">
+    <div class="w3-padding-64">
+      <h1><img height="100px" width="200px" src="data:image/png;base64,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"></h1>
+    <br><img height="100px" width="200px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0fHm0LQmkLRbh92GRrighXCMwBDFEWqor6g&usqp=CAU"></div>
+    <div class="w3-padding-64">
+      <a href="#" class="w3-button w3-black w3-block w3-hover-blue-grey w3-padding-16">OUR PICS</a>
+      <a href="#work" class="w3-button w3-black w3-block w3-hover-teal w3-padding-16">WISH</a>
+      <a href="#work" class="w3-button w3-black w3-block w3-hover-dark-grey w3-padding-16">HBD BABE!!</a>
+      <a href="#contact" class="w3-button w3-black w3-block w3-hover-brown w3-padding-16">Contact</a>
+    </div>
+  </div>
+  <div class="w3-half w3-blue-grey w3-container" style="height:700px">
+    <div class="w3-padding-64 w3-center">
+      <h1>HBD!!</h1>
+      <img src="maa.jpeg" class="w3-margin w3-animate-top w3-container" height="30%" alt="Person" width="50%">
+      <div class="w3-left-align w3-padding-large">
+        <p>Cheers to more fun, more memories, and more cake! Happy birthday!</p>
+        <p>I hope your birthday is as special as you are, friend!</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Second Grid: Work & Resume -->
+<div class="w3-row">
+  <div class="w3-half w3-light-grey w3-center" style="min-height:800px" id="work">
+    <div class="w3-padding-64">
+      <h2>OUR PICS</h2>
+      <p>Some of our bestt pics!!</p>
+    </div>
+    <div class="w3-row">
+      <div class="w3-half">
+        <img src="./a.jpeg" style="width:100px ">
+      </div>
+      <div class="w3-half">
+        <img src="./abc.jpeg" style="width:100px">
+      </div>
+    </div>
+    <div class="w3-row w3-hide-small">
+      <div class="w3-half">
+        <img src="./an.jpeg" style="width:100px ">
+      </div>
+      <div class="w3-half">
+        <img src="./e.jpeg" style="width:100px ">
+      </div>
+    </div>
+
+    <div class="w3-row w3-hide-small">
+      <div class="w3-half">
+        <img src="./k.jpeg" style="width:100px ">
+      </div>
+      <div class="w3-half">
+        <img src="./h.jpeg" style="width:100px ">
+      </div>
+    </div><br>
+    <p>Just call me awesome.</p>
+  </div>
+  <div class="w3-half w3-indigo w3-container" style="min-height:920px">
+    <div class="w3-padding-64 w3-center">
+      <h2>Resume</h2>
+      <p>A draft from my CV</p>
+      <div class="w3-container w3-responsive">
+        <table class="w3-table">
+          <tr>
+            <th>Year</th>
+            <th>Title</th>
+            <th>Where</th>
+          </tr>
+          <tr class="w3-white">
+            <td>2012-2016</td>
+            <td>The rest is history..</td>
+            <td>Lorem ipsum</td>
+          </tr>
+          <tr>
+            <td>2009-2012</td>
+            <td>Started my own company</td>
+            <td>My Garage</td>
+          </tr>
+          <tr class="w3-white">
+            <td>2008-2009</td>
+            <td>Started working for Lorem</td>
+            <td>London, UK</td>
+          </tr>
+          <tr>
+            <td>2005-2008</td>
+            <td>Degree in Bachelor of Design</td>
+            <td>Harvard, USA</td>
+          </tr>
+          <tr class="w3-white">
+            <td>2002-2005</td>
+            <td>Degree in Bachelor of Business</td>
+            <td>RMIT University, Melbourne, Australia</td>
+          </tr>
+          <tr class="w3-hide-medium">
+            <td>2002-2005</td>
+            <td>Degree in Bachelor of Business</td>
+            <td>RMIT University, Melbourne, Australia</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Third Grid: Swing By & Contact -->
+<div class="w3-row" id="contact">
+  <div class="w3-half w3-dark-grey w3-container w3-center" style="height:700px">
+    <div class="w3-padding-64">
+      <h1>Swing By</h1>
+    </div>
+    <div class="w3-padding-64">
+      <p>..for a cup of coffee, or whatever.</p>
+      <p>Chicago, US</p>
+      <p>+00 1515151515</p>
+      <p>test@test.com</p>
+    </div>
+  </div>
+  <div class="w3-half w3-teal w3-container" style="height:700px">
+    <div class="w3-padding-64 w3-padding-large">
+      <h1>Contact</h1>
+      <p class="w3-opacity">GET IN TOUCH</p>
+      <form class="w3-container w3-card w3-padding-32 w3-white" action="/action_page.php" target="_blank">
+        <div class="w3-section">
+          <label>Name</label>
+          <input class="w3-input" style="width:100%;" type="text" required name="Name">
+        </div>
+        <div class="w3-section">
+          <label>Email</label>
+          <input class="w3-input" style="width:100%;" type="text" required name="Email">
+        </div>
+        <div class="w3-section">
+          <label>Message</label>
+          <input class="w3-input" style="width:100%;" type="text" required name="Message">
+        </div>
+        <button type="submit" class="w3-button w3-teal w3-right">Send</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-black w3-padding-16">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+
+</body>
+</html>
